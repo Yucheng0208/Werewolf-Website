@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  // 天黑請閉眼: static site served from ./deploy (built by build_web.py)
+  "name": "werewolf-night",
+  "compatibility_date": "2026-11-17",
+  "assets": {
+    "directory": "./deploy",
+    "not_found_handling": "single-page-application"
+  },
+  "routes": [
+    { "pattern": "werewolf.yucheng208.net", "custom_domain": true }
+  ]
+}
