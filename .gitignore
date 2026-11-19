@@ -1,0 +1,29 @@
+# macOS
+.DS_Store
+._*
+
+# Node / Wrangler
+node_modules/
+.wrangler/
+.dev.vars
+.dev.vars.*
+
+# Secrets and local env
+.env
+.env.*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Editors and local tool settings
+.vscode/
+.idea/
+.claude/settings.local.json
+
+# Stale copy of the art folder: images are bundled into web/index.html by build_web.py
+web/art/
+
+# Local preview copies
+_preview.html
